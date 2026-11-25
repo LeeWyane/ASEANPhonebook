@@ -398,7 +398,7 @@ class Program
                             break;
                         }
 
-                        Console.WriteLine("Invalid country code.");
+                        Console.WriteLine("Invalid country code. Please enter 60, 62, 63, 65, or 66.");
                     }
                     break;
 
