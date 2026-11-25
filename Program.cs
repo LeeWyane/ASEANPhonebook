@@ -496,6 +496,8 @@ class Program
         List<Student> results =
             phonebook.SearchByCountries(selectedCountries);
 
+        Console.WriteLine($"\nTotal students found: {results.Count}");
+
         Console.WriteLine("\n--- SEARCH RESULTS ---");
 
         phonebook.DisplayStudents(results);
